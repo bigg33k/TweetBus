@@ -2,7 +2,7 @@ import json
 import twitter
 
 api = twitter.Api()
-api = twitter.Api(consumer_key='jiWXHSOG32kXMIm4FMuLZw',consumer_secret='EiiExPr3LzvXIfn8L3bajhR0p1GWmp4de3rxtNCw98', access_token_key='1063047326-73oRKXWlgkHoKk2vJtdBxwbs7ZahTVXserWrvGS', access_token_secret='jueuqbdlYhbrlzhfVktui0daybZStoxa9eafXsWlio')
+api = twitter.Api(consumer_key='',consumer_secret='', access_token_key='', access_token_secret='')
 
 try:
     api.VerifyCredentials() 
